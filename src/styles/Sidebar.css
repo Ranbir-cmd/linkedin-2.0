@@ -1,0 +1,114 @@
+/* .sidebar {
+  position: sticky;
+  top: 80px;
+  background-color: red;
+  flex: 0.25;
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+} */
+
+.sidebar {
+  top: 80px;
+  /* it is not 0 because there is header of height 80px  */
+  position: sticky;
+  flex: 0.25;
+  /* because sidebar is 20% feed is 60% and rightsidebar is 20%  */
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+}
+
+.sidebar-avatar {
+  margin-bottom: 10px;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.sidebar-top > h2 {
+  font-size: 14px;
+}
+.sidebar-top > h5 {
+  color: #555;
+  font-size: 12px;
+}
+
+.sidebar-top > img {
+  margin-bottom: -20px;
+  width: 100%;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.sidebar-stat {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.sidebar-stat > p {
+  color: #555;
+  font-size: 13px;
+  font-weight: 600;
+}
+.sidebar-statNumber {
+  font-weight: bold;
+  color: #0a66c2 !important;
+}
+.sidebar-stats {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #fff;
+}
+
+.sidebar-bottom {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.hash-topicname {
+  /* color: #555; */
+  font-size: 12px;
+  font-weight: 600;
+}
+.sidebar-hash {
+  color: #444;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.sidebar-recentItem {
+  display: flex;
+  margin-top: 8px;
+  cursor: pointer;
+  color: #555;
+}
+
+.recent {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.sidebar-recentItem:hover {
+  background-color: #eee;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
